@@ -1,0 +1,178 @@
+body{
+	width: 90%;
+	margin: 0 auto;
+	background-color:#A2F08E;
+}
+.headercontent h1.logo img{
+	margin: 0 auto;
+	max-width: 100%;
+	display: block;
+	
+}
+header h1 a img{
+	border: none;
+	vertical-align: middle;
+}
+nav ul li{
+	display: block;
+	padding: 2%;
+}
+nav ul li a{
+	display: block;
+	padding: 10px 10px;
+	border: 2px solid #D41F1C;
+	border-radius: 15%;
+	font-size: 1em;
+	text-decoration: none;
+}
+a:link{
+	color: #D41F1C;
+}
+a:visited{
+	color: #D41F1C;
+}
+nav a:hover{
+	box-shadow: 10px 10px #D41F1C;
+}
+.main{
+	display: block;
+}
+aside img{
+	width: 40%;
+}
+.section_main, .aside_main{
+	padding:0px 10px;
+}
+.section_main picture img{ 
+float: right;
+width: 40%;
+ }
+.section_main figure img{
+	width: 40%
+}
+.staff picture img{
+	float: right;
+	width: 40%;
+}
+.beers article{
+	display: inline-block;
+	width:90%;
+	height: 400px;
+	background-color:#3CFF14;
+	padding: 5px 15px;
+	margin: 5px 15px;
+	vertical-align: top;
+	overflow: auto;
+}
+.beers img{
+	height: 25%;
+	width: 25%;
+}
+picture img{
+	width: 90%
+}
+
+.fa{
+	padding: 20px;
+  	font-size: 30px;
+  	width: 10px;
+  	text-align: center;
+  	text-decoration: none;
+}
+
+@media only screen and (min-width: 460px){
+	nav ul li{
+	display: inline-block;
+	padding: 2%;
+}
+
+nav ul li a{
+	padding: 10px 5px;
+	font-size: 1em;
+}
+.beers article{
+	display: inline-block;
+	width: 95%;
+	height: 400px;
+	background-color:#3CFF14;
+	padding: 5px 20px;
+	margin: 5px 2px;
+	vertical-align: top;
+	overflow: auto;
+}
+.beers img{
+	height: 20%;
+	width: 20%;
+}
+picture img{
+	width: 70%
+}
+}
+/*end of 460*/
+
+@media screen and (min-width: 768px){
+.headercontent h1.logo img{
+	margin: 0 auto;
+	max-width: 100%;
+	display: block;	
+}
+header h1 a img{
+	border: none;
+	vertical-align: middle;
+}
+nav ul{
+	padding: 0px;
+	margin-left: 75px;
+}
+nav ul li{
+	display: inline-block;
+	padding: 2%;
+}
+
+nav ul li a{
+	display: block;
+	padding: 10px 10px;
+	font-size: 1.25em;
+	text-decoration: none;
+}
+.main{
+	display: flex;
+}
+.splitpoint{
+	margin-right: 270px
+}
+.section_main{
+	width: 70vw;
+	border:  #D41F1C;
+}
+.aside_main{
+	width: 20vw;
+}
+.beers article{
+	display: inline-block;
+	width: 38%;
+	max-height: 400px;
+	background-color:#3CFF14;
+	padding: 5px 20px;
+	margin: 5px 20px;
+	vertical-align: top;
+	overflow: auto;
+}
+.beers img{
+	height: 20%;
+	width: 20%;
+}
+picture img{
+	width: 50%
+}
+.section_main picture img{ 
+float: right;
+width: 30%;
+ }
+ .staff picture img{
+	float: right;
+	width: 25%;
+}
+}
+
+/*end of 768*/
